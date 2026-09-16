@@ -2,7 +2,7 @@
   (:refer-clojure :exclude [get])
   (:require [org.httpkit.client :refer :all]))
 
-(def endpoint "https://vine.co/api/")
+(def endpoint "https://apivin.cbone.uk/") # im in danger!
 
 (defmacro ^:private def-vine-request [method]
   "Constructs a function which prepends the Vine api endpoint to a path"
