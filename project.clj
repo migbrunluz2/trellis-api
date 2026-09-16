@@ -1,5 +1,5 @@
 (defproject com.alexeinunez/vine-api "0.2.0"
-  :description "A Clojure library designed to wrap the Unofficial Private Vine API"
+  :description "A Clojure library designed to wrap the Trellis API"
   :url "http://github.com/arnm/vine-api"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
