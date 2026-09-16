@@ -1,6 +1,6 @@
-# vine-api
+# trellis-api
 
-A Clojure library designed to wrap the [Unofficial Private Vine API](https://github.com/VineAPI/VineAPI/blob/master/endpoints.md). This library was built using [http-kit](https://github.com/http-kit/http-kit). All of the API functions defined in this library are light wrappers around the [http-kit client functions](http://www.http-kit.org/client.html).
+A Clojure library designed to wrap the [Trellis API](https://github.com/VineAPI/VineAPI/blob/master/endpoints.md). This library was built using [http-kit](https://github.com/http-kit/http-kit). All of the API functions defined in this library are light wrappers around the [http-kit client functions](http://www.http-kit.org/client.html).
 
 ## Usage
 
@@ -18,6 +18,7 @@ vine.api/posts-search-query
 ([method query & [opts callback]] [method query & [callback]])
   Requests https://vine.co/api/posts/search/<query>.
 ```
+Okay so Trellis doesnt have that /api/ thing,fuck
 
 which can be called like this:
 ``` clojure
